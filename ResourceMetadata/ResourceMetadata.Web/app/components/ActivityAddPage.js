@@ -2,12 +2,12 @@
 
 var React = require('react');
 var Router = require('react-router-component');
-var RequiredTextbox = require('app/components/RequiredTextbox');
-var RequiredTextArea = require('app/components/RequiredTextArea');
-var DatePicker = require('app/components/DatePicker');
+var RequiredTextbox = require('./RequiredTextbox');
+var RequiredTextArea = require('./RequiredTextArea');
+var DatePicker = require('./DatePicker');
 
-var ActivityActions = require("app/actions/ActivityActions");
-var ActivityStore = require("app/stores/ActivityStore");
+var ActivityActions = require("../actions/ActivityActions");
+var ActivityStore = require("../stores/ActivityStore");
 
 var ActivityAddPage = React.createClass({
     mixins:[Router.NavigatableMixin],

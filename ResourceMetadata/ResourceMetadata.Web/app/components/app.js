@@ -1,7 +1,7 @@
 ﻿/** @jsx React.DOM */
 
 var React = require('react');
-var NavigationRouter = require('app/components/NavigationRouter');
+var NavigationRouter = require('./NavigationRouter.js');
 
 console.log("app.js file starting execution...");
 

@@ -1,5 +1,5 @@
-﻿var AppDispatcher = require('app/dispatchers/AppDispatcher');
-var AppConstants = require('app/constants/AppConstants');
+﻿var AppDispatcher = require('../dispatchers/AppDispatcher');
+var AppConstants = require('../constants/AppConstants');
 
 function addActivity(payload) {
     AppDispatcher.dispatch(AppConstants.ACTIVITY_ADD, payload);

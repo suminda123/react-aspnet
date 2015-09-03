@@ -3,9 +3,9 @@
 var React = require('react');
 var Router = require('react-router-component');  
 
-var Select2 = require('app/components/Select2');
-var RequiredTextbox = require('app/components/RequiredTextbox');
-var RequiredTextArea = require('app/components/RequiredTextArea');
+var Select2 = require('./Select2');
+var RequiredTextbox = require('./RequiredTextbox');
+var RequiredTextArea = require('./RequiredTextArea');
 
 var ResourceForm = React.createClass({ 
     componentWillMount: function(){

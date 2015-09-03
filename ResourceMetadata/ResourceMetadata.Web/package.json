@@ -23,5 +23,8 @@
     "reactify": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "wolfy-eventemitter": "^0.1.0"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.0"
   }
 }
